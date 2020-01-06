@@ -39,7 +39,7 @@ app.use(function(err, req, res, next) {
 });
 
 
-// const server = require('http').Server(app);
+const server = require('http').Server(app);
 // const port = Math.round(Math.random()*65535);
 // console.log('listen on port',port);
 console.log('listening on 11451');
